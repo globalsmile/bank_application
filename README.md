@@ -15,7 +15,7 @@ To run the bank application, follow the steps below:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/bank-application.git
+   git clone https://github.com/globalsmile/bank_application.git
    ```
 
 2. Navigate to the project directory:
