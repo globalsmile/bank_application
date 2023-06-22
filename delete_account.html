@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globalsmile Internet Banking - Delete Account</title>
+    <link rel="stylesheet" href="./assets/styles/delete.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#" class="bank_name"><h1>GlobalSmile Internet Banking</h1></a>
+        <h1 class="delete_account">Delete Account</h1>
+      </header>
+      <main class="main">
+        <div class="form-container">
+          <p>Are you sure you want to delete your account?</p>
+          <button id="delete-account-button">Delete Account</button>
+          <a href="dashboard.html" class="back-button">Back to Dashboard</a>
+        </div>
+      </main>
+      <footer>
+        <!-- Copyright -->
+        <div class="copyright">
+          <ul>
+            <li>&copy; GlobalSmile 2023</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      // Handle account deletion
+      document
+        .getElementById("delete-account-button")
+        .addEventListener("click", function () {
+          // Perform the account deletion logic
+          // ...
+
+          // Redirect to a success page or show a success message
+          alert("Account successfully deleted!");
+        });
+    </script>
+  </body>
+</html>

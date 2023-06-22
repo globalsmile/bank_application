@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#" class="bank_name"><h1>GlobalSmile Internet Banking</h1></a>
+        <h1 class="create_account">Update Account</h1>
+      </header>
+      <main class="main">
+        <div class="form-container">
+          <form id="update-account-form">
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Enter your first name"
+              required
+            />
+
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Enter your last name"
+              required
+            />
+
+            <label for="middlename">Middle Name</label>
+            <input
+              type="text"
+              id="middlename"
+              name="middlename"
+              placeholder="Enter your middle name"
+              required
+            />
+
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            />
+
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+
+            <button type="submit">Update Account</button>
+          </form>
+          <a href="dashboard.html" class="back-button">Back to Dashboard</a>
+        </div>
+      </main>
+      <footer>
+        <!-- Copyright -->
+        <div class="copyright">
+          <ul>
+            <li>&copy; GlobalSmile 2023</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./assets/scripts/update_account.js"></script>
+  </body>
+</html>

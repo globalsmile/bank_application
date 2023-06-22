@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <title>Globalsmile Internet Banking - Send & Receive Money</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="bank_name"><h1>GlobalSmile Internet Banking</h1></a>
+        <h1 class="create_account">Send & Receive Money</h1>
+      </header>
+      <main class="main">
+        <div class="form-container">
+          <form id="send-money-form">
+            <label for="recipient">Recipient's Name</label>
+            <input
+              type="text"
+              id="recipient"
+              name="recipient"
+              placeholder="Enter recipient's name"
+              required
+            />
+
+            <label for="amount">Amount</label>
+            <input
+              type="text"
+              id="amount"
+              name="amount"
+              placeholder="Enter the amount to send"
+              required
+            />
+
+            <button type="submit">Send Money</button>
+            <a href="dashboard.html" class="back-button">Back to Dashboard</a>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <!-- Copyright -->
+        <div class="copyright">
+          <ul>
+            <li>&copy; GlobalSmile 2023</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./assets/scripts/send_receive_money.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/dashboard.css" />
+    <title>Globalsmile Internet Banking - Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="./index.html" class="bank_name"><h1>GlobalSmile Internet Banking</h1></a>
+      </header>
+      <main>
+        <div id="customer-info">
+          <ul>
+            <li><label>Welcome, </label> <span id="customer-name"></span></li>
+          </ul>
+        </div>
+        <div class="balance">
+          <h2>Account Balance:</h2>
+          <p id="account-balance"></p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="update_account.html">Update Account</a></li>
+            <li><a href="delete_account.html">Delete Account</a></li>
+            <li><a href="send_receive_money.html">Send & Receive Money</a></li>
+            <li><a href="view_transactions.html">View Transactions</a></li>
+          </ul>
+        </nav>
+      </main>
+      <footer>
+        <!-- Copyright -->
+        <div class="copyright">
+          <ul>
+            <li>&copy; GlobalSmile 2023</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./assets/scripts/dashboard.js"></script>
+  </body>
+</html>

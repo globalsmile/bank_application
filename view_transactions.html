@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/view_transactions.css" />
+    <title>Bank Application - View Transactions</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="bank_name"><h1>GlobalSmile Internet Banking</h1></a>
+        <h1 class="create_account">View Transactions</h1>
+      </header>
+      <main class="main">
+        <div class="transactions-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2023-06-20</td>
+                <td>Payment received</td>
+                <td>+ $100.00</td>
+              </tr>
+              <tr>
+                <td>2023-06-19</td>
+                <td>Bill payment</td>
+                <td>- $50.00</td>
+              </tr>
+              <!-- Add more transaction rows dynamically using JavaScript -->
+            </tbody>
+          </table>
+          <p>No more transactions to display.</p>
+          <a href="dashboard.html" class="back-button">Back to Dashboard</a>
+        </div>
+      </main>
+      <footer>
+        <!-- Copyright -->
+        <div class="copyright">
+          <ul>
+            <li>&copy; GlobalSmile 2023</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
